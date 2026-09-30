@@ -1,12 +1,11 @@
 # infiniterm releases
 
-Signed and notarized builds of infiniterm, a terminal on an infinite zoomable canvas, for Apple Silicon Macs (macOS 13 or later). The source is not here.
+Signed and notarized builds of [infiniterm](https://infiniterm.app), terminal cards on an infinite canvas, for Apple Silicon Macs (macOS 13 or later). The source is at [ekinertac/infiniterm](https://github.com/ekinertac/infiniterm); this repo holds the builds, the `latest.json` the app checks for updates, and the site.
 
-To install, download the `.dmg` from the [latest release](https://github.com/ekinertac/infiniterm-releases/releases/latest), open it and drag infiniterm into Applications. The app checks this repo for updates on its own.
-
-After the first launch, in any terminal card:
-
+```sh
+curl -fsSL https://infiniterm.app/install.sh | sh
 ```
-/Applications/infiniterm.app/Contents/MacOS/ift install   # puts ift on your PATH
-ift install-claude-hooks                                  # card colours from Claude Code
-```
+
+Or `brew install --cask ekinertac/tap/infiniterm`, or download the `.dmg` from the [latest release](https://github.com/ekinertac/infiniterm-releases/releases/latest) and drag it into Applications. The app updates itself from here.
+
+Free for personal use; paid work needs a licence, $29 per person. Terms in the source repo's `LICENSE.txt`.
