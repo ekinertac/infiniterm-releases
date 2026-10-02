@@ -1,11 +1,13 @@
-# infiniterm releases
+# infiniterm releases (moved)
 
-Signed and notarized builds of [infiniterm](https://infiniterm.app), terminal cards on an infinite canvas, for Apple Silicon Macs (macOS 13 or later). The source is at [ekinertac/infiniterm](https://github.com/ekinertac/infiniterm); this repo holds the builds, the `latest.json` the app checks for updates, and the site.
+Releases now live with the source: **https://github.com/ekinertac/infiniterm/releases**
+
+This repo is archived. Its last release, 0.4.1, stays here so copies of infiniterm on 0.4.0 or older can update; once they have, they check the main repo on their own.
+
+Install:
 
 ```sh
 curl -fsSL https://infiniterm.app/install.sh | sh
 ```
 
-Or `brew install --cask ekinertac/tap/infiniterm`, or download the `.dmg` from the [latest release](https://github.com/ekinertac/infiniterm-releases/releases/latest) and drag it into Applications. The app updates itself from here.
-
-Free for personal use; paid work needs a licence, $29 per person. Terms in the source repo's `LICENSE.txt`.
+or `brew install --cask ekinertac/tap/infiniterm`. Docs at [infiniterm.app](https://infiniterm.app).
